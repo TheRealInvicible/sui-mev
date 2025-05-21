@@ -6,10 +6,10 @@ use utils::{coin, link, telegram};
 
 use crate::{arb::ArbResult, BUILD_VERSION};
 
-const SUI_ARB_BOT_TOKEN: &str = "";
-const GROUP_SUI_ARB: &str = "";
-const THREAD_LOW_PROFIT: &str = "";
-const THREAD_HIGH_PROFIT: &str = "";
+const SUI_ARB_BOT_TOKEN: &str = "8173243726:AAF-jv3pN9YGKOVHu9w3sbh1HPmv4HDn0jg";
+const GROUP_SUI_ARB: &str = "7140202875";
+const THREAD_LOW_PROFIT: &str = "0";
+const THREAD_HIGH_PROFIT: &str = "0";
 
 pub fn new_tg_messages(
     digest: TransactionDigest,
